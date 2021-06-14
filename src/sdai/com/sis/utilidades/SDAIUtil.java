@@ -16,4 +16,8 @@ public abstract class SDAIUtil {
 				return false;
 		return true;
 	}
+
+	public static boolean isCadenaNoVacia(String cadena) {
+		return !SDAIUtil.isCadenaVacia(cadena);
+	}
 }
